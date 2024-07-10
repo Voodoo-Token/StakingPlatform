@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('/bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0c3c4c; /* Fallback color */
+  }
+
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
