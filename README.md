@@ -4,7 +4,7 @@ Welcome to the official repository for the Voodoo Token Staking Platform, a dece
 ## Overview
 The Voodoo Staking Platform is designed to add utility and value to the Voodoo Token ecosystem. By staking your VDO tokens, you can earn up to 30% APY in rewards, distributed as MAGIC or POISON tokens. The platform is fully decentralized, accessible to anyone with a PulseChain-compatible wallet (such as MetaMask), and features flexible staking options with no minimum deposit required.
 
-## Features
+## Key Features
 High APY: Earn up to 30% annual percentage yield on your staked Voodoo tokens.
 
 Dual Rewards: Choose between MAGIC (deflationary mechanism) or POISON (reflection mechanism) tokens as your staking rewards.
