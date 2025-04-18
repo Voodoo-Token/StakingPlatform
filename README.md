@@ -1,38 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Voodoo Token Staking Platform
+Welcome to the official repository for the Voodoo Token Staking Platform, a decentralized peer-to-peer staking dApp built on PulseChain. This platform allows you to stake your Voodoo (VDO) tokens and earn high-yield rewards in two unique ecosystem tokens: MAGIC and POISON.
+
+## Overview
+The Voodoo Token Staking Platform is designed to add utility and value to the Voodoo Token ecosystem. By staking your VDO tokens, you can earn up to 30% APY in rewards, distributed as MAGIC or POISON tokens. The platform is fully decentralized, accessible to anyone with a PulseChain-compatible wallet (such as MetaMask), and features flexible staking options with no minimum deposit required.
+
+## Features
+High APY: Earn up to 30% annual percentage yield on your staked VDO tokens.
+
+Dual Rewards: Choose between MAGIC (deflationary) or POISON (fee-sharing) tokens as your staking rewards.
+
+Multiple Pools: Six different staking pools with varying durations (30, 60, 120 days) and reward rates.
+
+No Minimum Stake: Stake as little as 1 VDO token.
+
+Deflationary Mechanism: Early unstaking burns 20% of your tokens, reducing supply and supporting long-term value.
+
+PulseChain Integration: Fast, low-fee transactions on the PulseChain network.
+
+Community-Driven: Transparent operations, regular audits, and open communication.
+
+## How Staking Works
+Connect Wallet: Use MetaMask or another PulseChain-compatible wallet.
+
+Choose Pool: Select from six pools, each with specific durations and reward types.
+
+Stake VDO Tokens: Deposit your tokens into your chosen pool and start earning rewards.
+
+Claim Rewards: Receive MAGIC or POISON tokens as dividends, depending on your pool selection.
 
 ## Getting Started
+Requirements:
 
-First, run the development server:
+Desktop or laptop with MetaMask extension installed
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Voodoo Tokens (VDO) in your wallet
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Steps:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Add Voodoo Token to MetaMask:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Network: PulseChain
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contract Address: 0x1c5f8e8E84AcC71650F7a627cfA5B24B80f44f00
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Visit the staking platform and connect your wallet.
 
-## Learn More
+Select your preferred pool and amount to stake.
 
-To learn more about Next.js, take a look at the following resources:
+Approve and confirm the transaction through MetaMask.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Monitor your rewards and staking status on the platform.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Staking Pools
+Pool	Reward Token	Duration (Days)	APY (Up to)
+1	MAGIC	30	Variable
+2	MAGIC	60	Variable
+3	MAGIC	120	Up to 30%
+4	POISON	30	Variable
+5	POISON	60	Variable
+6	POISON	120	Up to 30%
+Pools 1–3: Earn MAGIC (deflationary rewards)
 
-## Deploy on Vercel
+Pools 4–6: Earn POISON (fee-sharing rewards)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Unstaking & Penalties
+Early Unstaking: If you unstake before your lock-up period ends, 20% of your staked VDO tokens are burned. You also forfeit any accrued rewards.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deflationary Impact: Burned tokens are permanently removed from circulation, supporting token scarcity and value.
+
+## Community
+Website: www.voodootoken.com
+
+Staking dApp: staking.voodootoken.com
+
+## License
+This project is open-source. See LICENSE for more information.
+
+Happy staking!
