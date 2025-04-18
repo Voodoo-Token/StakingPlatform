@@ -74,9 +74,9 @@ Pools 4–6: Earn POISON Reward Token
 If you unstake before your lock-up period ends, 20% of your staked VDO tokens are burned. You also forfeit any accrued rewards. Burned tokens are permanently removed from circulation, supporting token scarcity and value.
 
 ## Community
-Website: www.voodootoken.com
+- **Website:** [voodootoken.com](www.voodootoken.com)
 
-Staking dApp: staking.voodootoken.com
+- **Staking dApp:** [staking.voodootoken.com](staking.voodootoken.com)
 
 ## License
 This project is open-source. See LICENSE for more information.
